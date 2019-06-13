@@ -1,0 +1,132 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+/* @import url(https://www.stop-stottern.de/wp-content/themes/stop-stottern-2018/css/bootstrap.min.css); 4.1.1 */
+@import url(https://www.stop-stottern.de/wp-content/themes/stop-stottern-2018/css/font-awesome.min.css); /* 5.4.1 */
+@import url(https://www.stop-stottern.de/wp-content/themes/stop-stottern-2018/style.css);
+
+
+/* ########## STUCTURE ########## */
+
+.edit-post-visual-editor .editor-block-list__block {
+    max-width: 1186px !important;
+}
+
+.container {
+    border: 1px solid #df0024;
+}
+
+#accordion {
+    border: 1px solid #217dbb;
+}
+
+/* ########## TYPO ########## */
+
+body {
+    font-size: 16px;
+}
+.wp-block-heading h1 {
+    font-size: 3rem;
+}
+.wp-block-heading h2 {
+    font-size: 2.5rem;
+}
+.wp-block-heading h3 {
+    font-size: 2rem;
+}
+.wp-block-heading h4 {
+    font-size: 1.75rem;
+}
+.wp-block-heading h5 {
+    font-size: 1.5rem;
+}
+.wp-block-heading h6 {
+    font-size: 1.25rem;
+}
+
+h1.components-modal__header-heading {
+    font-family: inherit;
+    font-size: 1em !important;
+}
+
+.edit-post-sidebar h1, .edit-post-meta-boxes-area h1,
+.edit-post-sidebar h2, .edit-post-meta-boxes-area h2,
+.edit-post-sidebar h3, .edit-post-meta-boxes-area h3,
+.edit-post-sidebar h4, .edit-post-meta-boxes-area h4,
+.edit-post-sidebar h5, .edit-post-meta-boxes-area h5,
+.edit-post-sidebar h6, .edit-post-meta-boxes-area h6 {
+    font-family: inherit !important;
+    font-size: initial !important;
+    text-transform: initial !important;
+}
+
+p {
+    font-size: 13px;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+}
+
+.wp-block-heading,
+.editor-post-title__block .editor-post-title__input {
+    font-family: "DIN 1451", sans-serif;
+    font-weight: normal;
+	color: #df0024;
+    text-transform: uppercase;
+}
+
+.editor-post-title__block .editor-post-title__input {
+    font-size: 3rem;
+}
+
+.editor-block-list__block {
+    font-family: "Open Sans", sans-serif !important;
+}
+
+.bg-primary .editor-block-list__block {
+    color: #fff;
+}
+
+/* ########## COLORS ########## */
+
+.editor-rich-text__tinymce a {
+    color: #df0024;
+}
+
+/* ########## CARDS ########## */
+
+.card {
+    max-width: unset;
+}
+
+/* ACCORDION */
+
+.accordion .card {
+    padding: 0;
+}
+
+/* ########## MISC ########## */
+
+.editor-block-list__block ol,
+.editor-block-list__block ul {
+    line-height: 1.5;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ul.wp-submenu.wp-submenu-wrap {
+    margin-left: 0;
+}
+
+/* ########## ANTI ERROR ########## */
+
+.components-panel__body-toggle.components-button .components-panel__arrow {
+    position: absolute;
+    right: 10px;
+    transform: translateY(-50%);
+}
